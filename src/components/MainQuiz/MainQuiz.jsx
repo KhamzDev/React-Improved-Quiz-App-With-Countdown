@@ -65,6 +65,7 @@ function MainQuiz() {
 
     function handleReset(){
         setAnswered(false)
+        setUserAnswer('')
         setCurInd(0)
         setTimeLeft(10)
     }
