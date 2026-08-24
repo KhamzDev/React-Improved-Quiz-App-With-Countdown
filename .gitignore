@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production & Build outputs
+/build
+/dist
+/dist-ssr
+/.next/
+/.nuxt/
+/.output/
+*.tsbuildinfo
+
+# Environment variables (Crucial for API keys & secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing & Coverage
+/coverage
+/.nyc_output
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Lockfiles / Caches (Optional: uncomment if you don't track your lockfiles)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+.eslintcache
+.stylelintcache
